@@ -32,5 +32,10 @@ Code for Anxiety Level Detection from physiological signals using supervised ML 
 
 | Option               | Description                                                                    |
 | :------------------- | :----------------------------------------------------------------------------- |
-| `--detector or -d`     | Graph layer name [GAT, GCN, GraphConv, GatedGraphConv, FastRGCNConv] -> string |
-| `--classifier or -clf`  | Streamer language [DE, EN, ES, FR, PT, RU] -> string                           |
+| `--detector or -d`     | R-peak Detection Algorithms [pan-tompkins, hamilton] -> string |
+| `--classifier or -clf`  | Classification Algorithms [logreg, decisiontree, xgboost, randomforest, extratrees, bagging] -> string                           |
+
+
+## References
+
+[1] Michał Sznajder, & Marta Łukowska. (2017). Python Online and Offline ECG QRS Detector based on the Pan-Tomkins algorithm (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.826614 
