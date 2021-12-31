@@ -1,4 +1,4 @@
-# Anxiety level Detection 
+# Anxiety Level Detection 
 
 ## Description
 
@@ -9,6 +9,7 @@ The anxiety level of the patients is classified into one of the three classes (*
 - **Decision Trees**
 - **Random Forest**
 - **Extra Trees**
+- **XGBoost**
 - **Bagging**
 
 
